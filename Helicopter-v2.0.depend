@@ -13,3 +13,17 @@
 1415642242 source:e:\computer graphics\lab\helicopter-v2.0\src\data.cpp
 	"Helicopter.h"
 
+1415628740 source:e:\computer-graphics\lab\helicopter-v2.0\main.cpp
+	"Helicopter.h"
+
+1415642582 e:\computer-graphics\lab\helicopter-v2.0\include\helicopter.h
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1415836523 source:e:\computer-graphics\lab\helicopter-v2.0\src\data.cpp
+	"Helicopter.h"
+
+1415836795 source:e:\computer-graphics\lab\helicopter-v2.0\src\helicopter.cpp
+	"Helicopter.h"
+
