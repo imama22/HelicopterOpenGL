@@ -6,6 +6,9 @@
 int main(int argc, char* args[])
 {
     Helicopter helicopter;      // create instance of a helicopter
+    float speed = 0.01;
+    helicopter.setSpeed(speed); // set speed for the helicopter
     helicopter.draw();          // starts drawing a helicopter
+
     return 0;
 }
