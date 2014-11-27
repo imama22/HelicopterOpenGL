@@ -7,35 +7,34 @@
 
 class Helicopter
 {
-    public:
-        Helicopter();
-        virtual ~Helicopter();
+public:
+	Helicopter();
+	virtual ~Helicopter();
 
-        void draw();                // onExecute()
-        void setSpeed(float speed);
-    protected:
-    private:
-        // private functions to execute program
-        void onEvent(SDL_Event* evnt);
-        bool onInit();
-        void onCleanup();
-        void onDisplay();
-        void processInput();
+	void draw();                // onExecute()
+	void setSpeed(float speed);
+protected:
+private:
+	// private functions to execute program
+	void onEvent(SDL_Event* evnt);
+	bool onInit();
+	void onCleanup();
+	void onDisplay();
+	void processInput();
 
-        // private functions to draw helicopter
-        void drawCube();
-        void drawHelicopter();
-        void drawGround();
-        void drawWings();
-        void drawBody();
+	// private functions to draw helicopter
+	void drawCube();
+	void drawHelicopter();
+	void drawGround();
+	void drawWings();
+	void drawBody();
 
-        float speed;
+	GLfloat MOVE_SPEED, ROTATION_DEGREE;
 
-        float sxt, syt, szt, ground;
-        GLfloat sr;
-        static GLfloat cube_buffer[8][3];
+	GLfloat sxt, syt, szt, ground, wrd, sr;
+	static GLfloat cube_buffer[8][3];
 
-        bool Running;
+	bool Running;
 };
 
 #endif // HELICOPTER_H
